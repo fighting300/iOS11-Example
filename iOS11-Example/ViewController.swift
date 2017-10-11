@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("safeInset",self.view.safeAreaInsets)
+        
+        print("safeLayout", self.view.safeAreaLayoutGuide)
+
         // Do any additional setup after loading the view, typically from a nib.
         
     }
